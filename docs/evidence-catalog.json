@@ -1,0 +1,102 @@
+{
+  "schema_version": "1.0",
+  "article_id": "M14-001",
+  "article_aliases": [
+    "AKC-M14-001",
+    "urn:akc:public-evidence:M14-001"
+  ],
+  "assets": [
+    {
+      "id": "E-M14-ORIGINAL",
+      "article_id": "M14-001",
+      "path": "evidence/m14/original.jpg",
+      "bytes": 140297,
+      "sha256": "75a8da33f6eaf1e16bf3b42cd78913b22b2e6a671fda217a508b1ba4230ce864",
+      "role": "PUBLIC_TEST_FIXTURE_NOT_NEWS_OR_PERSON_DATA",
+      "derived_from": null,
+      "source_id": "SRC-M14-FIXTURE",
+      "byte_identity": "Matches selected Gate14/Gate15 artifact; no new native tool execution",
+      "trust_ceiling": "Content hash identifies bytes, not truth, external timestamp or independent custody"
+    },
+    {
+      "id": "E-M14-APP11-REMOVED",
+      "article_id": "M14-001",
+      "path": "evidence/m14/stripped-app11.jpg",
+      "bytes": 89167,
+      "sha256": "5b9361f6f790e98c2b95db7d89cc378c7bfd3326eae4e4dbe3c6b9b40c55e689",
+      "role": "PUBLIC_TEST_FIXTURE_NOT_NEWS_OR_PERSON_DATA",
+      "derived_from": "E-M14-ORIGINAL",
+      "source_id": "SRC-M14-FIXTURE",
+      "byte_identity": "Matches selected Gate14/Gate15 artifact; no new native tool execution",
+      "trust_ceiling": "Content hash identifies bytes, not truth, external timestamp or independent custody"
+    },
+    {
+      "id": "E-M14-COM-INSERTED",
+      "article_id": "M14-001",
+      "path": "evidence/m14/comment-inserted.jpg",
+      "bytes": 140370,
+      "sha256": "c52c7d656b808ff869e599a8ce4d13aecb6dfda7a58fd359c01be7f5fad7aeb4",
+      "role": "PUBLIC_TEST_FIXTURE_NOT_NEWS_OR_PERSON_DATA",
+      "derived_from": "E-M14-ORIGINAL",
+      "source_id": "SRC-M14-FIXTURE",
+      "byte_identity": "Matches selected Gate14/Gate15 artifact; no new native tool execution",
+      "trust_ceiling": "Content hash identifies bytes, not truth, external timestamp or independent custody"
+    },
+    {
+      "id": "L-M14-CCBYSA",
+      "article_id": "M14-001",
+      "path": "evidence/m14/LICENSE-CC-BY-SA-4.0.txt",
+      "bytes": 20137,
+      "sha256": "23ee78c8bae49cf08ea2f0c84945c66b987ebe4520881fb51b3dad4fb43d07c2",
+      "role": "THIRD_PARTY_LICENSE",
+      "derived_from": null,
+      "source_id": "SRC-M14-FIXTURE",
+      "byte_identity": "Matches selected Gate14/Gate15 artifact; no new native tool execution",
+      "trust_ceiling": "Content hash identifies bytes, not truth, external timestamp or independent custody"
+    },
+    {
+      "id": "R-M14-ORIGINAL-NATIVE",
+      "article_id": "M14-001",
+      "path": "evidence/m14/original-native.json",
+      "bytes": 5447,
+      "sha256": "343ba40f2c8c5ec456fd1f9b6ae1de88474391641556c4f9303e706b9bb4407b",
+      "role": "REUSED_NATIVE_OBSERVATION",
+      "derived_from": null,
+      "source_id": "SRC-M14-FIXTURE",
+      "byte_identity": "Matches selected Gate14/Gate15 artifact; no new native tool execution",
+      "trust_ceiling": "Content hash identifies bytes, not truth, external timestamp or independent custody"
+    },
+    {
+      "id": "R-M14-COM-NATIVE",
+      "article_id": "M14-001",
+      "path": "evidence/m14/comment-native.json",
+      "bytes": 5524,
+      "sha256": "59b841e97c5081a3e5ba76150297bb793821520c20e34ee8882c7edd90924d8d",
+      "role": "REUSED_NATIVE_OBSERVATION",
+      "derived_from": null,
+      "source_id": "SRC-M14-FIXTURE",
+      "byte_identity": "Matches selected Gate14/Gate15 artifact; no new native tool execution",
+      "trust_ceiling": "Content hash identifies bytes, not truth, external timestamp or independent custody"
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "I-M14-PIXELS-AND-CLAIMS",
+      "source_scope": [
+        "E-M14-ORIGINAL",
+        "E-M14-APP11-REMOVED",
+        "E-M14-COM-INSERTED"
+      ],
+      "observation": "Same decoded pixels under stated Gate14 FFmpeg settings; credential results differ.",
+      "limits": "Not new test, fact truth, human-only creation or platform acceptance."
+    }
+  ],
+  "statements": "No actual disputing person statement, interview or response is supplied; absent evidence is not invented.",
+  "history_limits": "Original native timeStamp.trusted concerns the public fixture credential, not an independent timestamp of AKC publishing; G16 cannot create retroactive independent witness or early member control.",
+  "portability": "Relative paths and stable asset/article IDs survive host changes; old exports do not determine current live state.",
+  "missing_or_nonpublic": [
+    "Full internal runner/PM/test-key bundle excluded",
+    "Independent external custody of this publishing history not established",
+    "No actual human reader or independent contributor proof"
+  ]
+}

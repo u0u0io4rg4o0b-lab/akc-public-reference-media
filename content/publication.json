@@ -5,28 +5,62 @@
     "C": "PM_FORMALLY_SELECTED",
     "E": "PM_FORMALLY_SELECTED"
   },
-  "operation_state": "PREPARED_LOCAL_ONLY_NOT_PUBLIC",
-  "current_governance_stage": "S0_FOUNDER_LOCAL_CONTROL",
+  "operation_state": "PUBLIC_RELEASE_READY",
+  "current_governance_stage": "S0_FOUNDER_RESPONSIBLE_PENDING_DEPLOYMENT",
   "articles": [
     {
       "id": "M14-001",
-      "version": "G15-public-candidate-1",
-      "state": "prepared",
+      "version": "G16-release-1",
+      "state": "active",
       "date": "2026-10-26",
       "title": "同一張漸層圖，為什麼有三種憑證結果？",
       "summary": "三份測試檔在同一解碼設定下像素相同，憑證與內容綁定結果不同；這不裁定實拍、無AI或投稿合規。",
       "current_notice": "來源、事實、品質責任與投稿規則分開判斷。未取得的原帖與完整回覆仍然不知道。 缺件寫不知道，不把未知當假。",
       "withdrawal_notice": "本篇目前暫停採信／撤下；請勿沿用舊摘要作決定。現行說明取代本頁與索引的先前摘要，不能收回外部快取或已下載副本。",
-      "change_note": "Gate15將既有一件作品整理為公開候選，加入媒體入口與可公開核對材料；沒有重跑Gate14原生測試或新增真人調查。",
-      "editorial_owner": "待PM具名指定的AKC編輯責任人",
+      "change_note": "Gate16有限公開後繼：沿用同一作品與原件，補直達訂閱、版本關係、可攜包與責任渠道；沒有重跑Gate14原生測試，也不把發布當讀者效益或分權證據。",
+      "editorial_owner": "AKC創辦人／責任編輯",
       "human_editor_signoff": false,
-      "public_channels_active": false,
-      "pm_publication_authorized": false,
+      "public_channels_active": true,
+      "pm_publication_authorized": true,
       "independent_members": 0,
-      "licensing_decision": "待PM核准：新文字CC BY4.0／程式MIT；既有測試素材及衍生圖CC BY-SA4.0保持。",
+      "licensing_decision": "僅本媒體新文字 CC BY 4.0／程式 MIT；第三方素材維持原授權。",
       "source_date_limit": "curl固定commit與Stack Overflow動態Help僅按Gate14的2026-10-26核對範圍，不回推舊案。",
       "updated_date": "2026-10-26",
-      "date_qualification": "Clientdate/editiondateonly; no preciseeventtimestampclaimed"
+      "date_qualification": "Clientdate/editiondateonly; no preciseeventtimestampclaimed",
+      "stable_id": "urn:akc:public-evidence:M14-001",
+      "aliases": [
+        "AKC-M14-001"
+      ],
+      "article_path": "article.html",
+      "derives_from": [
+        {
+          "id": "AKC-M14-001",
+          "artifact": "Gate14 ARTICLE_DATA.json",
+          "sha256": "2fde74d6c86fd7d3c30312f25d4c5f55c41af7ceacdf395a918192d89cc9ad36",
+          "relationship": "Existing one-work research data; not a new investigation or new native execution",
+          "availability": "Original internal record retained; selected public originals and bounded results are in evidence-catalog.json"
+        }
+      ],
+      "previous_version": {
+        "version": "G15-public-candidate-1",
+        "source_commit": "dec7bd72a1df778218e20bde44fa685f7461489c",
+        "publication_metadata_sha256": "603296ced92d8714f9bc6b808373c44522e6027afe87969ce226e887a996ad8e",
+        "export_sha256": "a7784eef1ca53e35e33c45ceb647df54463d8f63bb26fc670b7bc550afd14e2f",
+        "qualification": "Preserved local candidate, not a previous public deployment or independent time witness; Git source history retains metadata and internal Gate15 retains export"
+      },
+      "editorial_responsibility_accepted": true,
+      "license_scope": {
+        "new_editorial_text": "CC BY 4.0",
+        "new_code": "MIT",
+        "scope": "This public reference medium only; not the full research repository or other products",
+        "third_party": "Original source-specific terms and attribution remain; no blanket relicensing"
+      },
+      "public_correction_url": "https://github.com/u0u0io4rg4o0b-lab/akc-public-reference-media/issues/new?template=correction.md"
     }
-  ]
+  ],
+  "schema": "akc-public-reference-publication",
+  "schema_version": 1,
+  "base_url": "https://u0u0io4rg4o0b-lab.github.io/akc-public-reference-media/",
+  "public_correction_url": null,
+  "public_repository": "https://github.com/u0u0io4rg4o0b-lab/akc-public-reference-media"
 }

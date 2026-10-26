@@ -1,3 +1,4 @@
+# Historical Gate15 controls retained; G16 readiness semantics differ. Do not relabel old results as a new G16 run.
 # -*- coding: utf-8 -*-
 """Known negative controls on disposable copies. No provider or old G14 executions."""
 from pathlib import Path

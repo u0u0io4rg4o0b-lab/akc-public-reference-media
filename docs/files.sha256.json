@@ -1,0 +1,160 @@
+{
+  "scope": "Identity of enumerated edition files only, excludes manifest itself. Embedded portable ZIP manifest enumerates its contained pre-download edition; outer website manifest also lists download ZIP. Neither proves truth, current remote state, approval or independent custody.",
+  "files": [
+    {
+      "path": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "LICENSE-MIT.txt",
+      "bytes": 1096,
+      "sha256": "8ce963076e4e684e7087813ef78dde51ab68f5d5d2808a403a37b91e7ff30776"
+    },
+    {
+      "path": "LICENSES.md",
+      "bytes": 1190,
+      "sha256": "fa495fc02101a4e0ee1bdc38e276512ff359320a86871d1888a1618aec22c49b"
+    },
+    {
+      "path": "article.html",
+      "bytes": 197717,
+      "sha256": "143c23c45d3fcc512001ced5026b7a61de9973c16de7f0d33e501a32775e1c88"
+    },
+    {
+      "path": "contribute/contribution.md",
+      "bytes": 735,
+      "sha256": "78bf30206b91a62613e6948fb1370c484e84eb60c1badd488364e6466b02359b"
+    },
+    {
+      "path": "contribute/correction.md",
+      "bytes": 834,
+      "sha256": "b553285b3bfe280fe7997fcac75cf05854ef5094223d440b32700d6603c546d6"
+    },
+    {
+      "path": "contribute/governance-proposal.md",
+      "bytes": 784,
+      "sha256": "4cd6cf0f8abeb1e9a42a774eb5d2928025e02156ebd23786d7a10c494156141a"
+    },
+    {
+      "path": "contribute/pull_request_template.md",
+      "bytes": 565,
+      "sha256": "99bcfaa8c3a40974c39624a1faa82e2ed4d980151958128b16ecf0826a801c53"
+    },
+    {
+      "path": "corrections.html",
+      "bytes": 3998,
+      "sha256": "d081f03e71bc1ab564c0f86c4acaa2aedc7d53f13d840aaaf767f133dd745470"
+    },
+    {
+      "path": "downloads/AKC-media-M14-001-G16-release-1.zip",
+      "bytes": 142249,
+      "sha256": "2e469ec722cf0d0b23ba01cfce2ba07d9704457629767d73d6449f00e338bbf5"
+    },
+    {
+      "path": "evidence/m14/LICENSE-CC-BY-SA-4.0.txt",
+      "bytes": 20137,
+      "sha256": "23ee78c8bae49cf08ea2f0c84945c66b987ebe4520881fb51b3dad4fb43d07c2"
+    },
+    {
+      "path": "evidence/m14/README.md",
+      "bytes": 885,
+      "sha256": "5cc9d59c84e7976189f694f3c4ab4222d443ba5281bf28c7b812b34ba975df7f"
+    },
+    {
+      "path": "evidence/m14/comment-inserted.jpg",
+      "bytes": 140370,
+      "sha256": "c52c7d656b808ff869e599a8ce4d13aecb6dfda7a58fd359c01be7f5fad7aeb4"
+    },
+    {
+      "path": "evidence/m14/comment-native.json",
+      "bytes": 5524,
+      "sha256": "59b841e97c5081a3e5ba76150297bb793821520c20e34ee8882c7edd90924d8d"
+    },
+    {
+      "path": "evidence/m14/original-native.json",
+      "bytes": 5447,
+      "sha256": "343ba40f2c8c5ec456fd1f9b6ae1de88474391641556c4f9303e706b9bb4407b"
+    },
+    {
+      "path": "evidence/m14/original.jpg",
+      "bytes": 140297,
+      "sha256": "75a8da33f6eaf1e16bf3b42cd78913b22b2e6a671fda217a508b1ba4230ce864"
+    },
+    {
+      "path": "evidence/m14/run-summary.json",
+      "bytes": 3053,
+      "sha256": "04afa6d520da0ffd475afcb9836fe1136301e2bbc3b2b48d3c01671a128c4538"
+    },
+    {
+      "path": "evidence/m14/stripped-app11.jpg",
+      "bytes": 89167,
+      "sha256": "5b9361f6f790e98c2b95db7d89cc378c7bfd3326eae4e4dbe3c6b9b40c55e689"
+    },
+    {
+      "path": "evidence-catalog.json",
+      "bytes": 4615,
+      "sha256": "27d4444a78672eeeddd6f0093bf10622efe6e0d72654b2c9435e7c3faad5cbbd"
+    },
+    {
+      "path": "export.json",
+      "bytes": 4824,
+      "sha256": "2674b62a837c924a55c4e1f43950c20817eab7396bbe50c6e943537eca6d8a7d"
+    },
+    {
+      "path": "feed.xml",
+      "bytes": 920,
+      "sha256": "6dd87e7e873e45e7b45b38a65796a35e4d2d106c99cab74109f9585601f8cbaa"
+    },
+    {
+      "path": "funding-ledger.csv",
+      "bytes": 79,
+      "sha256": "ad4d07badc8fa58b65bed44f8a7826e1d0134bb3cf09c9e8f6d8b139f4916640"
+    },
+    {
+      "path": "funding.html",
+      "bytes": 3167,
+      "sha256": "416ec9c12a971d3d13f17300c172ede5165ea62ae5a442937732273f98d54c1c"
+    },
+    {
+      "path": "governance-state.json",
+      "bytes": 1074,
+      "sha256": "b640a6328bfe4ac96edd70805efa510c0c6c50e139ef112cf034b9d906696564"
+    },
+    {
+      "path": "governance.html",
+      "bytes": 4075,
+      "sha256": "61eefe6e67b7a59d3e9bb43362885c0703f841e7bfbe724073e76af8832b6ab6"
+    },
+    {
+      "path": "index.html",
+      "bytes": 3697,
+      "sha256": "aa5a08680212a8c2e8599f5e31fe60afb83d703e63a8bba581620d275e765e25"
+    },
+    {
+      "path": "method.html",
+      "bytes": 4403,
+      "sha256": "65379e616e9e52372f94405e3740e6ff7e7170467fbb391531607f57fb66fb46"
+    },
+    {
+      "path": "participate.html",
+      "bytes": 3425,
+      "sha256": "9ff3c21b8252716a14b44c3516da5046fa808b2414552d980d07fa9232258f24"
+    },
+    {
+      "path": "privacy.html",
+      "bytes": 3539,
+      "sha256": "f80043a679c4c092a349c136e92b5e711b1bb9d31a23f6478faf2fe06ceabbbc"
+    },
+    {
+      "path": "sources.json",
+      "bytes": 2720,
+      "sha256": "1b4103a92631b5ad2c487cf2b46fa5ad4c4bd4733c26d37ed558a8104e1915e4"
+    },
+    {
+      "path": "style.css",
+      "bytes": 2896,
+      "sha256": "987626820f0ce6d22a476929a008f7db9bff96d77c1eb59d02fe028d9b37c5d1"
+    }
+  ]
+}

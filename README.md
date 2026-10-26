@@ -1,9 +1,13 @@
-# AKC公共查核媒體本機候選
+# AKC 公共參考媒體
 
-A/C/E已由PM正式選擇；尚未公開、建立外部帳號或取得獨立成員。
+創辦人負責、AI輔助；目前集中管理，非分散式DAO。這個庫只包含公開媒體所需程式、選定公開材料與靜態網站，不包含完整研究庫或PM私人對話。
 
-建置與本機核對：`python3 tools/build.py --check`。`python3 tools/public_preflight.py`預期列未完成發布條件，不是出版授權。`dist/index.html`可離線開啟；source/evidence可攜。
+文章ID M14-001（歷史alias AKC-M14-001）與URN延續；content/publication.json區分版本、目前狀態與前版，content/evidence-catalog.json列原件/觀察/解讀角色。G14原始測試未因媒體發布重新執行；本地 metadata 不是部署、獨立時間或真人覆核證明。
 
-本機準備使用Sites skill local-only流程，未註冊/同步/部署。選成熟Git協作、靜態host、必要備份，權限及費用按正式帳戶確認。自建建置器只組裝靜態頁，不承擔平台帳戶/論壇/付款/審查服務。
+建置：`python3 tools/build.py --check`。Pages的docs/來自同版dist/靜態輸出，.nojekyll避免範本處理改變可核對檔案。公開站網址由GitHub Pages設定及實際讀回確認。
 
-不可對外打包內部PM、原始本機路徑、工具或測試私鑰。本資料庫可由單一owner改寫，localchecks/Git都不等於分權或來源真相。
+下載網站中的完整核對材料ZIP，可離線閱讀及核對已取得版本；它不能證明最新遠端狀態，亦不能撤回下載／快取／轉載。Git來源及公開資料可帶走；Issues、帳戶設定、權限、網域、復原與資金是不同資源，Git不自動完整備份。
+
+公開更正／非敏感貢獻使用本庫Issues，程式修訂用PR；不要貼私件、密碼、敏感附件或未處理的真人重大指控。沒有固定回覆時限；AI不能因讀取頁面而取得發布或治理授權。
+
+新文字CC BY4.0、本媒體程式MIT，第三方素材維持原授權，見LICENSES.md。資助、收款、廣告與私密委託未開放；本次沒有新付費義務。要以本網站做商業交易或SaaS前，須先另核host條款與PM範圍。

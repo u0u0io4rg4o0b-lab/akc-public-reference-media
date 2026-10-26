@@ -1,0 +1,57 @@
+{
+  "sources": [
+    {
+      "label": "官方素材與固定版本",
+      "url": "https://github.com/c2pa-org/public-testfiles/tree/22beccc075707475b038d8789d0136c009e43143/legacy/1.4/image",
+      "id": "SRC-M14-FIXTURE",
+      "role": "PUBLIC_EXTERNAL_REFERENCE_OR_RULE_NOT_AKC_AUTHORITY",
+      "relationship": "Applies only to stated article scope/version; original site keeps its own rights",
+      "observed_date": "2026-10-26"
+    },
+    {
+      "label": "素材CC BY-SA4.0授權",
+      "url": "https://github.com/c2pa-org/public-testfiles/blob/22beccc075707475b038d8789d0136c009e43143/LICENSE",
+      "id": "SRC-M14-LICENSE",
+      "role": "PUBLIC_EXTERNAL_REFERENCE_OR_RULE_NOT_AKC_AUTHORITY",
+      "relationship": "Applies only to stated article scope/version; original site keeps its own rights",
+      "observed_date": "2026-10-26"
+    },
+    {
+      "label": "C2PA來源資訊與真實性的界線（Explainer2.3）",
+      "url": "https://spec.c2pa.org/specifications/specifications/2.3/explainer/Explainer.html",
+      "id": "SRC-M14-C2PA-EXPLAINER",
+      "role": "PUBLIC_EXTERNAL_REFERENCE_OR_RULE_NOT_AKC_AUTHORITY",
+      "relationship": "Applies only to stated article scope/version; original site keeps its own rights",
+      "observed_date": "2026-10-26"
+    },
+    {
+      "label": "C2PA Tool v0.28.3",
+      "url": "https://github.com/contentauth/c2patool/releases/tag/v0.28.3",
+      "id": "SRC-M14-C2PATOOL",
+      "role": "PUBLIC_EXTERNAL_REFERENCE_OR_RULE_NOT_AKC_AUTHORITY",
+      "relationship": "Applies only to stated article scope/version; original site keeps its own rights",
+      "observed_date": "2026-10-26"
+    }
+  ],
+  "rules": [
+    {
+      "name": "curl CONTRIBUTING pinned",
+      "url": "https://github.com/curl/curl/blob/7e1001bcd69967707cf6fee9e71fc10dd244d509/docs/CONTRIBUTE.md",
+      "id": "RULE-M14-CURL",
+      "role": "PUBLIC_EXTERNAL_REFERENCE_OR_RULE_NOT_AKC_AUTHORITY",
+      "relationship": "Applies only to stated article scope/version; original site keeps its own rights",
+      "observed_date": "2026-10-26"
+    },
+    {
+      "name": "Stack Overflow Help",
+      "url": "https://stackoverflow.com/help/gen-ai-policy",
+      "id": "RULE-M14-STACKOVERFLOW",
+      "role": "PUBLIC_EXTERNAL_REFERENCE_OR_RULE_NOT_AKC_AUTHORITY",
+      "relationship": "Applies only to stated article scope/version; original site keeps its own rights",
+      "observed_date": "2026-10-26"
+    }
+  ],
+  "access_scope": "Gate14公開核對2026-10-26；本輪保留原觀察，不新作個案指控。",
+  "schema_version": "1.0",
+  "source_date_scope": "Existing Gate14 observation2026-10-26; G16 adds identities/relationships, not reexecution or retroactive independent time."
+}
