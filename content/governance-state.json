@@ -1,0 +1,12 @@
+{
+  "current_stage": "S0_FOUNDER_LOCAL_PREPARATION",
+  "independent_members": 0,
+  "public_repository": "NOT_CREATED",
+  "public_channels": "NOT_ACTIVE",
+  "founder_can_edit_files_build_and_archive": true,
+  "remote_branch_rules": "NOT_CONFIGURED_OR_TESTED",
+  "independent_review_permissions": "NOT_GRANTED",
+  "deployment_domain_billing_keys": "NO_NEW_ACCOUNTS_OR_TRANSFER",
+  "admin_and_recovery_bypass": "NOT_ELIMINATED",
+  "stage_transition_evidence": "Actualnamedindependentcontrollers+effectivepermissions+authorizedtest+responsibility/exit, notagents/votesalone"
+}

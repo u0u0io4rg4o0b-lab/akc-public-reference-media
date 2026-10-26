@@ -1,0 +1,32 @@
+{
+  "site_title": "AKC 公共查核",
+  "direction_selection": {
+    "A": "PM_FORMALLY_SELECTED",
+    "C": "PM_FORMALLY_SELECTED",
+    "E": "PM_FORMALLY_SELECTED"
+  },
+  "operation_state": "PREPARED_LOCAL_ONLY_NOT_PUBLIC",
+  "current_governance_stage": "S0_FOUNDER_LOCAL_CONTROL",
+  "articles": [
+    {
+      "id": "M14-001",
+      "version": "G15-public-candidate-1",
+      "state": "prepared",
+      "date": "2026-10-26",
+      "title": "同一張漸層圖，為什麼有三種憑證結果？",
+      "summary": "三份測試檔在同一解碼設定下像素相同，憑證與內容綁定結果不同；這不裁定實拍、無AI或投稿合規。",
+      "current_notice": "來源、事實、品質責任與投稿規則分開判斷。未取得的原帖與完整回覆仍然不知道。 缺件寫不知道，不把未知當假。",
+      "withdrawal_notice": "本篇目前暫停採信／撤下；請勿沿用舊摘要作決定。現行說明取代本頁與索引的先前摘要，不能收回外部快取或已下載副本。",
+      "change_note": "Gate15將既有一件作品整理為公開候選，加入媒體入口與可公開核對材料；沒有重跑Gate14原生測試或新增真人調查。",
+      "editorial_owner": "待PM具名指定的AKC編輯責任人",
+      "human_editor_signoff": false,
+      "public_channels_active": false,
+      "pm_publication_authorized": false,
+      "independent_members": 0,
+      "licensing_decision": "待PM核准：新文字CC BY4.0／程式MIT；既有測試素材及衍生圖CC BY-SA4.0保持。",
+      "source_date_limit": "curl固定commit與Stack Overflow動態Help僅按Gate14的2026-10-26核對範圍，不回推舊案。",
+      "updated_date": "2026-10-26",
+      "date_qualification": "Clientdate/editiondateonly; no preciseeventtimestampclaimed"
+    }
+  ]
+}

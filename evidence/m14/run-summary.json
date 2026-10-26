@@ -1,0 +1,72 @@
+{
+  "scope": "Gate14一份官方非人物測試圖與兩個明示本機控制副本；不是三件真人事件。",
+  "origin": "C2PA public-testfiles@22beccc075707475b038d8789d0136c009e43143 legacy/1.4/image/jpeg/adobe-20220124-C.jpg",
+  "license": "CC BY-SA4.0; originalattribution/change notices apply, noendorsement",
+  "rows": [
+    {
+      "id": "original",
+      "bytes": 140297,
+      "file_sha256": "75a8da33f6eaf1e16bf3b42cd78913b22b2e6a671fda217a508b1ba4230ce864",
+      "tool_exit_code": 0,
+      "native_validation_state": "Valid",
+      "native_report_specVersion": "2.4.0",
+      "native_validation_codes": [
+        "assertion.dataHash.match",
+        "assertion.hashedURI.match",
+        "claimSignature.insideValidity",
+        "claimSignature.validated",
+        "signingCredential.ocsp.skipped",
+        "signingCredential.untrusted",
+        "timeStamp.trusted",
+        "timeStamp.validated"
+      ],
+      "decoded_rgb24_sha256": "691c490a5ad73c9ff965d5cd7fd57f868f8add041c85fa4b101e14cc79929baf"
+    },
+    {
+      "id": "stripped",
+      "bytes": 89167,
+      "file_sha256": "5b9361f6f790e98c2b95db7d89cc378c7bfd3326eae4e4dbe3c6b9b40c55e689",
+      "tool_exit_code": 1,
+      "native_validation_state": "NO_CLAIM_REPORTED",
+      "native_report_specVersion": null,
+      "native_validation_codes": [],
+      "decoded_rgb24_sha256": "691c490a5ad73c9ff965d5cd7fd57f868f8add041c85fa4b101e14cc79929baf"
+    },
+    {
+      "id": "comment",
+      "bytes": 140370,
+      "file_sha256": "c52c7d656b808ff869e599a8ce4d13aecb6dfda7a58fd359c01be7f5fad7aeb4",
+      "tool_exit_code": 0,
+      "native_validation_state": "Invalid",
+      "native_report_specVersion": "2.4.0",
+      "native_validation_codes": [
+        "assertion.dataHash.mismatch",
+        "assertion.hashedURI.match",
+        "claimSignature.insideValidity",
+        "claimSignature.validated",
+        "signingCredential.ocsp.skipped",
+        "signingCredential.untrusted",
+        "timeStamp.trusted",
+        "timeStamp.validated"
+      ],
+      "decoded_rgb24_sha256": "691c490a5ad73c9ff965d5cd7fd57f868f8add041c85fa4b101e14cc79929baf"
+    }
+  ],
+  "decoded_rgb24_sha256": "691c490a5ad73c9ff965d5cd7fd57f868f8add041c85fa4b101e14cc79929baf",
+  "pixel_bytes": 8386560,
+  "pixel_limit": "限Gate14同一FFmpeg設定，非所有decoder/顯示器或真假判定。",
+  "tool": "Official c2patool0.28.3, explicitemptysettings, report specVersion2.4.0; no newG15execution",
+  "unknown": [
+    "完整製作史/完全無AI",
+    "真實事件或投稿爭議",
+    "外部採信/讀者效果/付款",
+    "2.5完整符合性與全部網路行為"
+  ],
+  "recipe": [
+    "c2patool --settings settings.json --detailed original.jpg",
+    "c2patool --settings settings.json --detailed stripped-app11.jpg",
+    "c2patool --settings settings.json --detailed comment-inserted.jpg",
+    "ffmpeg -v error -i FILE.jpg -f rawvideo -pix_fmt rgb24 -"
+  ],
+  "export_boundary": "公開節錄與相對命令，不是原始runner完整紀錄；完整內部原件留存但不對外打包。"
+}
