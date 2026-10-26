@@ -53,8 +53,8 @@
     },
     {
       "path": "downloads/AKC-media-M14-001-G16-release-2.zip",
-      "bytes": 151249,
-      "sha256": "6c6bb53e17503756d60d4b9e49c27aaf3b7c9c1848f566ba70e10c72d7d89dab"
+      "bytes": 151294,
+      "sha256": "b69f3f0aab766ce80553fcae4278ad40d8b2d2182073fc18c162bd823ec3e951"
     },
     {
       "path": "evidence/editions/G16-release-1-export.json",
@@ -143,8 +143,8 @@
     },
     {
       "path": "governance-state.json",
-      "bytes": 1739,
-      "sha256": "c2531d0d62dd2371b6e2da6dc63ba282f40b4702fa04dfe044253cb7acfacde4"
+      "bytes": 1823,
+      "sha256": "cde1e87b02c5d4240e6917c0952f2b7211def49d5307b3cf6e46f47f864170ec"
     },
     {
       "path": "governance.html",
