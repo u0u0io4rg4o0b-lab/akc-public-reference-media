@@ -6,7 +6,7 @@
     "E": "PM_FORMALLY_SELECTED"
   },
   "operation_state": "PUBLIC_LIMITED_FOUNDER_RESPONSIBLE",
-  "current_governance_stage": "S0_FOUNDER_RESPONSIBLE_PENDING_DEPLOYMENT",
+  "current_governance_stage": "F0_S0_FOUNDER_RESPONSIBLE_LIMITED_PUBLIC",
   "articles": [
     {
       "id": "M14-001",
