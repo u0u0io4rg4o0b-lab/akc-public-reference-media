@@ -1,5 +1,5 @@
 {
-  "scope": "Identity of enumerated edition files only, excludes manifest itself. Embedded portable ZIP manifest enumerates its contained pre-download edition; outer website manifest also lists download ZIP. Neither proves truth, current remote state, approval or independent custody.",
+  "scope": "Identity of enumerated edition files only, excludes manifest itself. Embedded portable ZIP manifest enumerates its contained edition excluding all downloadable ZIPs; outer website manifest also lists current/historical download ZIPs. Neither proves truth, current remote state, approval or independent custody.",
   "files": [
     {
       "path": ".nojekyll",
@@ -18,8 +18,8 @@
     },
     {
       "path": "article.html",
-      "bytes": 197717,
-      "sha256": "143c23c45d3fcc512001ced5026b7a61de9973c16de7f0d33e501a32775e1c88"
+      "bytes": 197760,
+      "sha256": "89fd25d0aff7ef688e22ebd6edf0658b639056aeea2ac6f1b0d735d4aacdfcbf"
     },
     {
       "path": "contribute/contribution.md",
@@ -44,12 +44,37 @@
     {
       "path": "corrections.html",
       "bytes": 3998,
-      "sha256": "d081f03e71bc1ab564c0f86c4acaa2aedc7d53f13d840aaaf767f133dd745470"
+      "sha256": "0d636d3eb1f08e00fad0c262fe1d8615d8de0929f988b9afc7536b48b343f5b7"
     },
     {
       "path": "downloads/AKC-media-M14-001-G16-release-1.zip",
       "bytes": 142249,
       "sha256": "2e469ec722cf0d0b23ba01cfce2ba07d9704457629767d73d6449f00e338bbf5"
+    },
+    {
+      "path": "downloads/AKC-media-M14-001-G16-release-2.zip",
+      "bytes": 151249,
+      "sha256": "6c6bb53e17503756d60d4b9e49c27aaf3b7c9c1848f566ba70e10c72d7d89dab"
+    },
+    {
+      "path": "evidence/editions/G16-release-1-export.json",
+      "bytes": 4824,
+      "sha256": "2674b62a837c924a55c4e1f43950c20817eab7396bbe50c6e943537eca6d8a7d"
+    },
+    {
+      "path": "evidence/editions/G16-release-1-files.sha256.json",
+      "bytes": 5134,
+      "sha256": "0b9a327355e3cfb566a7e0c749014fa56674b2fdad98e8661e1c4ba1d5029f01"
+    },
+    {
+      "path": "evidence/editions/G16-release-1-governance-state.json",
+      "bytes": 1074,
+      "sha256": "b640a6328bfe4ac96edd70805efa510c0c6c50e139ef112cf034b9d906696564"
+    },
+    {
+      "path": "evidence/editions/G16-release-1-readback.json",
+      "bytes": 6617,
+      "sha256": "6e92b45f49636be93eb82f68c43d4fb00834f940f9451d0ae49e62d11a7fdba7"
     },
     {
       "path": "evidence/m14/LICENSE-CC-BY-SA-4.0.txt",
@@ -93,18 +118,18 @@
     },
     {
       "path": "evidence-catalog.json",
-      "bytes": 4615,
-      "sha256": "27d4444a78672eeeddd6f0093bf10622efe6e0d72654b2c9435e7c3faad5cbbd"
+      "bytes": 5174,
+      "sha256": "d6cae5eb947ef00a2632bdc5f79138ffeba1d88dbc878e27139b43e4db77f2f6"
     },
     {
       "path": "export.json",
-      "bytes": 4824,
-      "sha256": "2674b62a837c924a55c4e1f43950c20817eab7396bbe50c6e943537eca6d8a7d"
+      "bytes": 4998,
+      "sha256": "72511d87e446d22f721c72d1f962e7441216bad5bfd32fe739aa0e3184d26637"
     },
     {
       "path": "feed.xml",
       "bytes": 920,
-      "sha256": "6dd87e7e873e45e7b45b38a65796a35e4d2d106c99cab74109f9585601f8cbaa"
+      "sha256": "fc11ad5e1a977004752c75bfd85c0d758b3a1254e3729604fbfe5c042e12eba8"
     },
     {
       "path": "funding-ledger.csv",
@@ -114,37 +139,37 @@
     {
       "path": "funding.html",
       "bytes": 3167,
-      "sha256": "416ec9c12a971d3d13f17300c172ede5165ea62ae5a442937732273f98d54c1c"
+      "sha256": "8da5394fac538112fe21d06221ba789d937f8dc54c235606620e0df88360f366"
     },
     {
       "path": "governance-state.json",
-      "bytes": 1074,
-      "sha256": "b640a6328bfe4ac96edd70805efa510c0c6c50e139ef112cf034b9d906696564"
+      "bytes": 1739,
+      "sha256": "c2531d0d62dd2371b6e2da6dc63ba282f40b4702fa04dfe044253cb7acfacde4"
     },
     {
       "path": "governance.html",
-      "bytes": 4075,
-      "sha256": "61eefe6e67b7a59d3e9bb43362885c0703f841e7bfbe724073e76af8832b6ab6"
+      "bytes": 4594,
+      "sha256": "3a159d6516f14f3193b61ac2cf88e6d7265cf2afb626d31767ff5c95d7c4e15a"
     },
     {
       "path": "index.html",
       "bytes": 3697,
-      "sha256": "aa5a08680212a8c2e8599f5e31fe60afb83d703e63a8bba581620d275e765e25"
+      "sha256": "5e89d6957554079ddee6df295ca9596bc5d69add6ee43415c7b555c9290d4a02"
     },
     {
       "path": "method.html",
       "bytes": 4403,
-      "sha256": "65379e616e9e52372f94405e3740e6ff7e7170467fbb391531607f57fb66fb46"
+      "sha256": "154f8f036c9a185af8e1f447802ed18dce5c3755ecbbdd6a8031ba113392085d"
     },
     {
       "path": "participate.html",
       "bytes": 3425,
-      "sha256": "9ff3c21b8252716a14b44c3516da5046fa808b2414552d980d07fa9232258f24"
+      "sha256": "f1d318fc84ddb2b156668d9b4bdc7744a87cb7b67703ce1d1533a1d7acf51963"
     },
     {
       "path": "privacy.html",
       "bytes": 3539,
-      "sha256": "f80043a679c4c092a349c136e92b5e711b1bb9d31a23f6478faf2fe06ceabbbc"
+      "sha256": "5ef6db6a07a97b4be77c09bb9533e6c7e8cd5b1e1c686b1dec99b9610f6eaead"
     },
     {
       "path": "sources.json",

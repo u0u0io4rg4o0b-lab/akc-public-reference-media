@@ -3,7 +3,7 @@
   "schema_version": 1,
   "schema_qualification": "Explicit Gate16 schema for role/identity/current-state relations; legacy Gate15 unversioned export is preserved separately, not silently reinterpreted.",
   "scope": "One existing reference work and support pages; release metadata is an accountable publisher assertion, not proof of actual deployment/readers or source truth.",
-  "site_state": "PUBLIC_RELEASE_READY",
+  "site_state": "PUBLIC_LIMITED_FOUNDER_RESPONSIBLE",
   "base_url": "https://u0u0io4rg4o0b-lab.github.io/akc-public-reference-media/",
   "articles": [
     {
@@ -12,14 +12,16 @@
       "aliases": [
         "AKC-M14-001"
       ],
-      "version": "G16-release-1",
-      "version_id": "urn:akc:public-evidence:M14-001:version:G16-release-1",
+      "version": "G16-release-2",
+      "version_id": "urn:akc:public-evidence:M14-001:version:G16-release-2",
       "previous_version": {
-        "version": "G15-public-candidate-1",
-        "source_commit": "dec7bd72a1df778218e20bde44fa685f7461489c",
-        "publication_metadata_sha256": "603296ced92d8714f9bc6b808373c44522e6027afe87969ce226e887a996ad8e",
-        "export_sha256": "a7784eef1ca53e35e33c45ceb647df54463d8f63bb26fc670b7bc550afd14e2f",
-        "qualification": "Preserved local candidate, not a previous public deployment or independent time witness; Git source history retains metadata and internal Gate15 retains export"
+        "version": "G16-release-1",
+        "source_commit": "a23218344b09ee73d2584ac11d90c0fdc146551b",
+        "catalog_path": "evidence/editions/G16-release-1-export.json",
+        "catalog_sha256": "2674b62a837c924a55c4e1f43950c20817eab7396bbe50c6e943537eca6d8a7d",
+        "portable_archive_path": "downloads/AKC-media-M14-001-G16-release-1.zip",
+        "portable_archive_sha256": "2e469ec722cf0d0b23ba01cfce2ba07d9704457629767d73d6449f00e338bbf5",
+        "qualification": "Previous public edition actually read back; old package remains historical and cannot prove latest live state."
       },
       "derives_from": [
         {
@@ -72,9 +74,9 @@
   "trust_limits": "No retroactive independent witness, trusted event time, signer assent or independent custody is added by versioning/migration. Retained native C2PA results keep their original scoped meaning.",
   "limitations": "Current metadata cannot revoke external caches. Stable IDs and byte hashes identify relations, not source truth, acceptance or effective authority.",
   "portable_package": {
-    "path": "downloads/AKC-media-M14-001-G16-release-1.zip",
-    "url": "https://u0u0io4rg4o0b-lab.github.io/akc-public-reference-media/downloads/AKC-media-M14-001-G16-release-1.zip",
-    "scope": "Full static edition/evidence/licenses, excludes its own download ZIP. Not all internal research, account data or independent backup.",
+    "path": "downloads/AKC-media-M14-001-G16-release-2.zip",
+    "url": "https://u0u0io4rg4o0b-lab.github.io/akc-public-reference-media/downloads/AKC-media-M14-001-G16-release-2.zip",
+    "scope": "Current static edition/evidence/licenses, excludes downloadable ZIPs including historical ZIPs; historical edition archives are separate. Not all internal research, account data or independent backup.",
     "current_state_ceiling": "A downloaded historical edition cannot prove the latest live status."
   }
 }

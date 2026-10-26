@@ -98,5 +98,16 @@
     "Full internal runner/PM/test-key bundle excluded",
     "Independent external custody of this publishing history not established",
     "No actual human reader or independent contributor proof"
+  ],
+  "publication_history": [
+    {
+      "version": "G16-release-1",
+      "catalog": "evidence/editions/G16-release-1-export.json",
+      "governance_snapshot": "evidence/editions/G16-release-1-governance-state.json",
+      "manifest": "evidence/editions/G16-release-1-files.sha256.json",
+      "readback": "evidence/editions/G16-release-1-readback.json",
+      "portable_archive": "downloads/AKC-media-M14-001-G16-release-1.zip",
+      "scope": "Unchanged prior public edition; author/provider observation, not independent witness or source truth"
+    }
   ]
 }

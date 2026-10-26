@@ -5,19 +5,19 @@
     "C": "PM_FORMALLY_SELECTED",
     "E": "PM_FORMALLY_SELECTED"
   },
-  "operation_state": "PUBLIC_RELEASE_READY",
+  "operation_state": "PUBLIC_LIMITED_FOUNDER_RESPONSIBLE",
   "current_governance_stage": "S0_FOUNDER_RESPONSIBLE_PENDING_DEPLOYMENT",
   "articles": [
     {
       "id": "M14-001",
-      "version": "G16-release-1",
+      "version": "G16-release-2",
       "state": "active",
       "date": "2026-10-26",
       "title": "同一張漸層圖，為什麼有三種憑證結果？",
       "summary": "三份測試檔在同一解碼設定下像素相同，憑證與內容綁定結果不同；這不裁定實拍、無AI或投稿合規。",
       "current_notice": "來源、事實、品質責任與投稿規則分開判斷。未取得的原帖與完整回覆仍然不知道。 缺件寫不知道，不把未知當假。",
       "withdrawal_notice": "本篇目前暫停採信／撤下；請勿沿用舊摘要作決定。現行說明取代本頁與索引的先前摘要，不能收回外部快取或已下載副本。",
-      "change_note": "Gate16有限公開後繼：沿用同一作品與原件，補直達訂閱、版本關係、可攜包與責任渠道；沒有重跑Gate14原生測試，也不把發布當讀者效益或分權證據。",
+      "change_note": "G16-release-2：依第一版實際部署讀回，將發布前治理快照更正為已有限公開的現況，保留第一版材料包與觀察紀錄；同一篇作品、原件與技術結論未變，沒有新增真人採用或分權證據。",
       "editorial_owner": "AKC創辦人／責任編輯",
       "human_editor_signoff": false,
       "public_channels_active": true,
@@ -42,11 +42,13 @@
         }
       ],
       "previous_version": {
-        "version": "G15-public-candidate-1",
-        "source_commit": "dec7bd72a1df778218e20bde44fa685f7461489c",
-        "publication_metadata_sha256": "603296ced92d8714f9bc6b808373c44522e6027afe87969ce226e887a996ad8e",
-        "export_sha256": "a7784eef1ca53e35e33c45ceb647df54463d8f63bb26fc670b7bc550afd14e2f",
-        "qualification": "Preserved local candidate, not a previous public deployment or independent time witness; Git source history retains metadata and internal Gate15 retains export"
+        "version": "G16-release-1",
+        "source_commit": "a23218344b09ee73d2584ac11d90c0fdc146551b",
+        "catalog_path": "evidence/editions/G16-release-1-export.json",
+        "catalog_sha256": "2674b62a837c924a55c4e1f43950c20817eab7396bbe50c6e943537eca6d8a7d",
+        "portable_archive_path": "downloads/AKC-media-M14-001-G16-release-1.zip",
+        "portable_archive_sha256": "2e469ec722cf0d0b23ba01cfce2ba07d9704457629767d73d6449f00e338bbf5",
+        "qualification": "Previous public edition actually read back; old package remains historical and cannot prove latest live state."
       },
       "editorial_responsibility_accepted": true,
       "license_scope": {
@@ -55,7 +57,14 @@
         "scope": "This public reference medium only; not the full research repository or other products",
         "third_party": "Original source-specific terms and attribution remain; no blanket relicensing"
       },
-      "public_correction_url": "https://github.com/u0u0io4rg4o0b-lab/akc-public-reference-media/issues/new?template=correction.md"
+      "public_correction_url": "https://github.com/u0u0io4rg4o0b-lab/akc-public-reference-media/issues/new?template=correction.md",
+      "candidate_lineage": {
+        "version": "G15-public-candidate-1",
+        "source_commit": "dec7bd72a1df778218e20bde44fa685f7461489c",
+        "publication_metadata_sha256": "603296ced92d8714f9bc6b808373c44522e6027afe87969ce226e887a996ad8e",
+        "export_sha256": "a7784eef1ca53e35e33c45ceb647df54463d8f63bb26fc670b7bc550afd14e2f",
+        "qualification": "Preserved local candidate, not a previous public deployment or independent time witness; Git source history retains metadata and internal Gate15 retains export"
+      }
     }
   ],
   "schema": "akc-public-reference-publication",

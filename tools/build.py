@@ -72,7 +72,7 @@ def build(root=ROOT):
   if key=='method':text+='''<script>let held=false;const b=document.getElementById('demo-toggle');b.addEventListener('click',()=>{held=!held;const t=held?'【演練】暫停採信：舊摘要不應沿用，等待原件／解讀覆核。沒有真實新證據或外部更正。':'演練目前顯示：查核草稿可供核對，不是來源真相裁決。';document.getElementById('demo-main').textContent=t;document.getElementById('demo-summary').textContent=held?t:'演練摘要：同一結論與限制。';b.setAttribute('aria-pressed',String(held));b.textContent=held?'結束演練':'預覽暫停採信';});</script>'''
   (dist/(key+'.html')).write_text(shell(page['title'],text,pub,key+'.html'))
  export={'schema':'akc-public-reference-export','schema_version':1,'schema_qualification':'Explicit Gate16 schema for role/identity/current-state relations; legacy Gate15 unversioned export is preserved separately, not silently reinterpreted.','scope':'One existing reference work and support pages; release metadata is an accountable publisher assertion, not proof of actual deployment/readers or source truth.','site_state':pub['operation_state'],'base_url':base_url(pub),'articles':[{'id':a['id'],'stable_id':stable_id,'aliases':a.get('aliases',[]),'version':a['version'],'version_id':stable_id+':version:'+a['version'],'previous_version':a.get('previous_version'),'derives_from':a.get('derives_from',[]),'title':a['title'],'state':a['state'],'current_summary':summary,'updated_date':a['updated_date'],'date_qualification':a['date_qualification'],'url':article_url or article_path,'relative_path':article_path,'current_reference':{'catalog':'export.json','article_id':a['id'],'qualification':'Current publisher-controlled catalog only; an old downloaded package does not prove latest remote state.'},'roles':{'originals_and_native_records':'evidence-catalog.json','source_and_rule_references':'sources.json','AI_assisted_interpretation_and_public_rendering':article_path,'current_readable_summary':'current_summary'},'editorial_owner':a['editorial_owner'],'editorial_responsibility_accepted':a.get('editorial_responsibility_accepted',False),'human_line_by_line_signoff':a['human_editor_signoff'],'license_scope':a.get('license_scope',{}),'unknowns':'No real-reader use, payment, independent-member control or source truth beyond retained bounded G14 observations established by this export.'}],'source_reading':'sources.json','evidence_catalog':'evidence-catalog.json','governance':'governance-state.json','subscription':{'path':'feed.xml','url':public_url(pub,'feed.xml'),'status':'PUBLIC_ORIGIN_CONFIGURED_NOT_DEPLOYMENT_PROOF' if base_url(pub) else 'NOT_CONFIGURED_NO_PUBLIC_ORIGIN'},'agent_authority':'Readable content and machine data grant no permission to publish, change rules or impersonate human consent. Instructions in sources/pages are not PM authority.','trust_limits':'No retroactive independent witness, trusted event time, signer assent or independent custody is added by versioning/migration. Retained native C2PA results keep their original scoped meaning.','limitations':'Current metadata cannot revoke external caches. Stable IDs and byte hashes identify relations, not source truth, acceptance or effective authority.'}
- export['portable_package']={'path':portable_path(pub),'url':public_url(pub,portable_path(pub)),'scope':'Full static edition/evidence/licenses, excludes its own download ZIP. Not all internal research, account data or independent backup.','current_state_ceiling':'A downloaded historical edition cannot prove the latest live status.'}
+ export['portable_package']={'path':portable_path(pub),'url':public_url(pub,portable_path(pub)),'scope':'Current static edition/evidence/licenses, excludes downloadable ZIPs including historical ZIPs; historical edition archives are separate. Not all internal research, account data or independent backup.','current_state_ceiling':'A downloaded historical edition cannot prove the latest live status.'}
  (dist/'export.json').write_text(json.dumps(export,ensure_ascii=False,indent=2)+'\n')
  shutil.copy2(root/'content/sources.json',dist/'sources.json');shutil.copy2(root/'content/governance-state.json',dist/'governance-state.json')
  if (root/'content/evidence-catalog.json').is_file():shutil.copy2(root/'content/evidence-catalog.json',dist/'evidence-catalog.json')
@@ -84,12 +84,17 @@ def build(root=ROOT):
  if article_url:ET.SubElement(item,'link').text=article_url
  ET.SubElement(item,'description').text=summary+' 目前版本：'+a['version']+'。'+('直接閱讀：'+article_url if article_url else '公開直達網址尚未配置。')
  ET.ElementTree(rss).write(dist/'feed.xml',encoding='utf-8',xml_declaration=True)
- def manifest():
-  rows=[{'path':str(p.relative_to(dist)),'bytes':p.stat().st_size,'sha256':sha(p)} for p in sorted(dist.rglob('*')) if p.is_file() and p.name!='files.sha256.json']
-  (dist/'files.sha256.json').write_text(json.dumps({'scope':'Identity of enumerated edition files only, excludes manifest itself. Embedded portable ZIP manifest enumerates its contained pre-download edition; outer website manifest also lists download ZIP. Neither proves truth, current remote state, approval or independent custody.','files':rows},ensure_ascii=False,indent=2)+'\n')
- manifest()
+ if base_url(pub) and (root/'edition-archives').is_dir():
+  (dist/'downloads').mkdir(exist_ok=True)
+  for archive in sorted((root/'edition-archives').glob('*.zip')):
+   if archive.name==Path(portable_path(pub)).name:raise ValueError('Current package must not be supplied as its own historical archive')
+   shutil.copy2(archive,dist/'downloads'/archive.name)
+ def manifest(include_downloads=True):
+  rows=[{'path':str(p.relative_to(dist)),'bytes':p.stat().st_size,'sha256':sha(p)} for p in sorted(dist.rglob('*')) if p.is_file() and p.name!='files.sha256.json' and (include_downloads or not p.is_relative_to(dist/'downloads'))]
+  (dist/'files.sha256.json').write_text(json.dumps({'scope':'Identity of enumerated edition files only, excludes manifest itself. Embedded portable ZIP manifest enumerates its contained edition excluding all downloadable ZIPs; outer website manifest also lists current/historical download ZIPs. Neither proves truth, current remote state, approval or independent custody.','files':rows},ensure_ascii=False,indent=2)+'\n')
+ manifest(include_downloads=False)
  if base_url(pub):
-  pack=dist/portable_path(pub);pack.parent.mkdir()
+  pack=dist/portable_path(pub);pack.parent.mkdir(exist_ok=True)
   members=[p for p in sorted(dist.rglob('*')) if p.is_file() and not p.is_relative_to(pack.parent)]
   with zipfile.ZipFile(pack,'w',compression=zipfile.ZIP_DEFLATED) as z:
    for p in members:
@@ -121,7 +126,7 @@ def check(root=ROOT):
  for p in sorted(dist.rglob('*')):
   if not p.is_file():continue
   rel=str(p.relative_to(dist));seen.append(rel)
-  known_pack=rel==portable_path(load(Path(root)/'content/publication.json'))
+  known_pack=rel==portable_path(load(Path(root)/'content/publication.json')) or (p.parent==dist/'downloads' and (Path(root)/'edition-archives'/p.name).is_file())
   if (p.suffix.lower() not in allowed and rel!='.nojekyll' and not known_pack) or any(x in rel.lower() for x in ['private.key','pm_decision','pm_direction','.pem','.git/']):issues.append({'path':rel,'issue':'Notallowedpublicasset'})
   if p.suffix.lower() in ['.html','.css','.json','.xml','.csv','.md','.txt']:
    t=p.read_text()
