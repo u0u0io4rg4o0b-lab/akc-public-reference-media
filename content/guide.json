@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "active": true,
+  "work_id": "M14-001",
+  "work_stable_id": "urn:akc:public-evidence:M14-001",
+  "presentation_version": "G17-release-1",
+  "source_observation_scope": "InheritedGate14publicfixture/2controlledvariants,2026-10-26; no newnative imagevalidation",
+  "samples": [
+    {
+      "key": "original",
+      "label": "原始檔",
+      "path": "evidence/m14/original.jpg",
+      "asset_id": "E-M14-ORIGINAL",
+      "finding": "這次工具讀到紀錄，檔案與紀錄中的檢查內容對得上。但這次沒有確認簽署者可信，也略過一項憑證狀態查詢。",
+      "cannot": "不能因此說事件是真的、完整製作過程已知，或完全沒有用人工智慧。",
+      "native_note": "沿用Gate14：Valid、signingCredential.untrusted、signingCredential.ocsp.skipped、exit 0；報告specVersion2.4.0。"
+    },
+    {
+      "key": "stripped",
+      "label": "移走紀錄",
+      "path": "evidence/m14/stripped-app11.jpg",
+      "asset_id": "E-M14-APP11-REMOVED",
+      "finding": "這份示範移除了這類內嵌紀錄，所以工具這次沒有找到聲明；畫面仍相同。",
+      "cannot": "不能把網路圖片「找不到紀錄」直接當成「圖片是假」。真實案件還要找來源與缺件原因。",
+      "native_note": "沿用Gate14：No claim found／NO_CLAIM_REPORTED，exit 1；不是本輪新外部事件。"
+    },
+    {
+      "key": "comment",
+      "label": "加了註解",
+      "path": "evidence/m14/comment-inserted.jpg",
+      "asset_id": "E-M14-COM-INSERTED",
+      "finding": "這份示範只插入JPEG檔案註解，沒有改變解碼畫面。工具回報紀錄與檔案對不上，程式卻仍以0結束。",
+      "cannot": "不能只看錯誤就指控有人造假，也不能只看程式正常結束就說所有檢查都通過。",
+      "native_note": "沿用Gate14：Invalid／assertion.dataHash.mismatch，同時exit 0；三份的同設定RGB24雜湊相同。"
+    }
+  ],
+  "questions": [
+    {
+      "id": "same_pixels",
+      "prompt": "看起來相同，為什麼結果不同？",
+      "feedback": "畫面只是檔案的一部分。這三份在原來的同一解碼設定下像素相同，內嵌紀錄或檔案註解卻不同，所以工具的紀錄檢查結果可能不同。這不等於已查明事件真相。"
+    },
+    {
+      "id": "valid_not_truth",
+      "prompt": "有紀錄，就能確定是真的嗎？",
+      "feedback": "不能。紀錄與檔案對得上，只支持這次檢查範圍。原始檔也沒有確認簽署者可信、略過一項狀態查詢；事件是否真實、製作史是否完整、是否用了人工智慧仍不能由此判定。"
+    },
+    {
+      "id": "missing_not_fake",
+      "prompt": "找不到紀錄，就是假的嗎？",
+      "feedback": "不能。這個示範是我們明示移掉紀錄；真實圖片可能缺少來源或紀錄。你現在只知道這次沒找到，不知道的部分應繼續保留，而不是補成假。"
+    },
+    {
+      "id": "mismatch_not_fraud",
+      "prompt": "工具報錯，能指控造假嗎？",
+      "feedback": "不能。這份加註解的示範就讓紀錄對不上，但畫面相同。要作真人指控仍需要事件原件、脈絡、權利及相稱回應；程式正常結束，也不能蓋過報告裡的檢查失敗。"
+    },
+    {
+      "id": "AI_not_authority",
+      "prompt": "可以請人工智慧直接作最後判決嗎？",
+      "feedback": "人工智慧可以協助整理、比較與找缺件，但不能補造來源、別人的同意或平台採納。平台、機構及真正有權的人須依適用規則決定；查核網站和互動完成都不產生這種權力。"
+    }
+  ],
+  "meaning": "Publicsourceobservations vs AIassistedexplanations separate; choicesnotstored/graded/streamed; no truthcertification",
+  "human_learning_benefit": "UNKNOWN_NOT_TESTED",
+  "original_source_roles": "evidence-catalog.json"
+}

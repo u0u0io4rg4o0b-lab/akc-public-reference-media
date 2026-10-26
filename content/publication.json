@@ -10,14 +10,14 @@
   "articles": [
     {
       "id": "M14-001",
-      "version": "G16-release-2",
+      "version": "G17-release-1",
       "state": "active",
       "date": "2026-10-26",
-      "title": "同一張漸層圖，為什麼有三種憑證結果？",
-      "summary": "三份測試檔在同一解碼設定下像素相同，憑證與內容綁定結果不同；這不裁定實拍、無AI或投稿合規。",
+      "title": "一樣的圖片，為什麼檢查答案不一樣？",
+      "summary": "原實驗用相同方式讀取三份示範圖，畫面相同，紀錄卻可能對得上、找不到，或對不上。這些結果不能單獨證明事件真假。",
       "current_notice": "來源、事實、品質責任與投稿規則分開判斷。未取得的原帖與完整回覆仍然不知道。 缺件寫不知道，不把未知當假。",
       "withdrawal_notice": "本篇目前暫停採信／撤下；請勿沿用舊摘要作決定。現行說明取代本頁與索引的先前摘要，不能收回外部快取或已下載副本。",
-      "change_note": "G16-release-2：依第一版實際部署讀回，將發布前治理快照更正為已有限公開的現況，保留第一版材料包與觀察紀錄；同一篇作品、原件與技術結論未變，沒有新增真人採用或分權證據。",
+      "change_note": "Gate17把閱讀入口與說明改成白話，加入可跳過的三份材料探索；原件、原始測試與結論邊界未改，也沒有新增真人理解、採信或治理證據。",
       "editorial_owner": "AKC創辦人／責任編輯",
       "human_editor_signoff": false,
       "public_channels_active": true,
@@ -25,7 +25,7 @@
       "independent_members": 0,
       "licensing_decision": "僅本媒體新文字 CC BY 4.0／程式 MIT；第三方素材維持原授權。",
       "source_date_limit": "curl固定commit與Stack Overflow動態Help僅按Gate14的2026-10-26核對範圍，不回推舊案。",
-      "updated_date": "2026-10-26",
+      "updated_date": "2026-10-27",
       "date_qualification": "Clientdate/editiondateonly; no preciseeventtimestampclaimed",
       "stable_id": "urn:akc:public-evidence:M14-001",
       "aliases": [
@@ -42,13 +42,13 @@
         }
       ],
       "previous_version": {
-        "version": "G16-release-1",
-        "source_commit": "a23218344b09ee73d2584ac11d90c0fdc146551b",
-        "catalog_path": "evidence/editions/G16-release-1-export.json",
-        "catalog_sha256": "2674b62a837c924a55c4e1f43950c20817eab7396bbe50c6e943537eca6d8a7d",
-        "portable_archive_path": "downloads/AKC-media-M14-001-G16-release-1.zip",
-        "portable_archive_sha256": "2e469ec722cf0d0b23ba01cfce2ba07d9704457629767d73d6449f00e338bbf5",
-        "qualification": "Previous public edition actually read back; old package remains historical and cannot prove latest live state."
+        "version": "G16-release-2",
+        "source_commit": "38c22b91513ba96151bd092d25e6ab064b25ea8d",
+        "catalog_path": "evidence/editions/G16-release-2-export.json",
+        "catalog_sha256": "72511d87e446d22f721c72d1f962e7441216bad5bfd32fe739aa0e3184d26637",
+        "portable_archive_path": "downloads/AKC-media-M14-001-G16-release-2.zip",
+        "portable_archive_sha256": "b69f3f0aab766ce80553fcae4278ad40d8b2d2182073fc18c162bd823ec3e951",
+        "qualification": "Prior public edition retained; does not prove lateststate/independenttime."
       },
       "editorial_responsibility_accepted": true,
       "license_scope": {
@@ -64,7 +64,8 @@
         "publication_metadata_sha256": "603296ced92d8714f9bc6b808373c44522e6027afe87969ce226e887a996ad8e",
         "export_sha256": "a7784eef1ca53e35e33c45ceb647df54463d8f63bb26fc670b7bc550afd14e2f",
         "qualification": "Preserved local candidate, not a previous public deployment or independent time witness; Git source history retains metadata and internal Gate15 retains export"
-      }
+      },
+      "source_title": "同一張漸層圖，為什麼有三種憑證結果？"
     }
   ],
   "schema": "akc-public-reference-publication",

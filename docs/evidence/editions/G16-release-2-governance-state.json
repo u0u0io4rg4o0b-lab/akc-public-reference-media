@@ -1,0 +1,24 @@
+{
+  "current_stage": "F0_S0_FOUNDER_RESPONSIBLE_LIMITED_PUBLIC",
+  "independent_members": 0,
+  "public_repository": "https://github.com/u0u0io4rg4o0b-lab/akc-public-reference-media",
+  "public_channels": "Public GitHub Issues enabled; correction/contribution templates rendered in read-only logged-in browser check. No synthetic Issue posted or real reader response verified; actual receipt not tested.",
+  "founder_can_edit_files_build_and_archive": true,
+  "remote_branch_rules": "NO_SHARED_REVIEW_ENFORCEMENT_CONFIGURED; F2/F3 not claimed",
+  "independent_review_permissions": "NOT_GRANTED",
+  "deployment_domain_billing_keys": "Founder-selected personal repository and native main/docs Pages; HTTPS enabled; no customdomain purchase, payment binding or new credential/role grant",
+  "admin_and_recovery_bypass": "Founder account/repository admins and GitHub/provider recovery remain central",
+  "stage_transition_evidence": "Actualnamedindependentcontrollers+effectivepermissions+authorizedtest+responsibility/exit, notagents/votesalone",
+  "limited_publication_PM_authorized": true,
+  "editorial_responsibility_accepted": "AKC創辦人／責任編輯",
+  "human_line_by_line_signoff": "NOT_ASSERTED",
+  "first_release_observation": {
+    "release": "G16-release-1",
+    "commit": "a23218344b09ee73d2584ac11d90c0fdc146551b",
+    "native_pages_status": "built",
+    "anonymous_files_matched": 32,
+    "record": "evidence/editions/G16-release-1-readback.json",
+    "scope": "Previous-version author/provider observation only; this source version still needs own native/HTTP verification. No retroactive independent witness."
+  },
+  "live_current_state_ceiling": "Current publisher-controlled metadata and normal GitHub permission/recovery dependencies; historical downloadable package alone is not latest-state proof."
+}

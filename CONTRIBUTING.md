@@ -9,3 +9,5 @@
 建置核對：`python3 tools/build.py --check`。G16窄關係測試：`python3 tests/publication_links.py --record <新結果檔>`；它只用本機example.test控制，不呼叫外站。tests/controlled_checks.py是G15歷史測試程式；原12控制及false-green見證不因本版而重寫成新測試結果。
 
 CODEOWNERS.example未設定真人共同批准或branchrules。本機檢查與Git都可被owner略過，不能冒充分權、安全或事實認證。
+
+G17互動修改請另核對：三份示範的結果與限制、直接閱讀／原件／更正／退出可跳過互動、無腳本的完整文字、失敗提示、鍵盤及實際窄螢幕畫面。這些有限檢查不等於真人理解或完整無障礙認證。不要用合成公開Issue當真人貢獻或自行測送件；只有適用授權下的真實獨立來源及明確處理結果，才可支持F1進展。

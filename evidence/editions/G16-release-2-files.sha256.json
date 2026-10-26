@@ -1,0 +1,185 @@
+{
+  "scope": "Identity of enumerated edition files only, excludes manifest itself. Embedded portable ZIP manifest enumerates its contained edition excluding all downloadable ZIPs; outer website manifest also lists current/historical download ZIPs. Neither proves truth, current remote state, approval or independent custody.",
+  "files": [
+    {
+      "path": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "LICENSE-MIT.txt",
+      "bytes": 1096,
+      "sha256": "8ce963076e4e684e7087813ef78dde51ab68f5d5d2808a403a37b91e7ff30776"
+    },
+    {
+      "path": "LICENSES.md",
+      "bytes": 1190,
+      "sha256": "fa495fc02101a4e0ee1bdc38e276512ff359320a86871d1888a1618aec22c49b"
+    },
+    {
+      "path": "article.html",
+      "bytes": 197760,
+      "sha256": "89fd25d0aff7ef688e22ebd6edf0658b639056aeea2ac6f1b0d735d4aacdfcbf"
+    },
+    {
+      "path": "contribute/contribution.md",
+      "bytes": 735,
+      "sha256": "78bf30206b91a62613e6948fb1370c484e84eb60c1badd488364e6466b02359b"
+    },
+    {
+      "path": "contribute/correction.md",
+      "bytes": 834,
+      "sha256": "b553285b3bfe280fe7997fcac75cf05854ef5094223d440b32700d6603c546d6"
+    },
+    {
+      "path": "contribute/governance-proposal.md",
+      "bytes": 784,
+      "sha256": "4cd6cf0f8abeb1e9a42a774eb5d2928025e02156ebd23786d7a10c494156141a"
+    },
+    {
+      "path": "contribute/pull_request_template.md",
+      "bytes": 565,
+      "sha256": "99bcfaa8c3a40974c39624a1faa82e2ed4d980151958128b16ecf0826a801c53"
+    },
+    {
+      "path": "corrections.html",
+      "bytes": 3998,
+      "sha256": "0d636d3eb1f08e00fad0c262fe1d8615d8de0929f988b9afc7536b48b343f5b7"
+    },
+    {
+      "path": "downloads/AKC-media-M14-001-G16-release-1.zip",
+      "bytes": 142249,
+      "sha256": "2e469ec722cf0d0b23ba01cfce2ba07d9704457629767d73d6449f00e338bbf5"
+    },
+    {
+      "path": "downloads/AKC-media-M14-001-G16-release-2.zip",
+      "bytes": 151294,
+      "sha256": "b69f3f0aab766ce80553fcae4278ad40d8b2d2182073fc18c162bd823ec3e951"
+    },
+    {
+      "path": "evidence/editions/G16-release-1-export.json",
+      "bytes": 4824,
+      "sha256": "2674b62a837c924a55c4e1f43950c20817eab7396bbe50c6e943537eca6d8a7d"
+    },
+    {
+      "path": "evidence/editions/G16-release-1-files.sha256.json",
+      "bytes": 5134,
+      "sha256": "0b9a327355e3cfb566a7e0c749014fa56674b2fdad98e8661e1c4ba1d5029f01"
+    },
+    {
+      "path": "evidence/editions/G16-release-1-governance-state.json",
+      "bytes": 1074,
+      "sha256": "b640a6328bfe4ac96edd70805efa510c0c6c50e139ef112cf034b9d906696564"
+    },
+    {
+      "path": "evidence/editions/G16-release-1-readback.json",
+      "bytes": 6617,
+      "sha256": "6e92b45f49636be93eb82f68c43d4fb00834f940f9451d0ae49e62d11a7fdba7"
+    },
+    {
+      "path": "evidence/m14/LICENSE-CC-BY-SA-4.0.txt",
+      "bytes": 20137,
+      "sha256": "23ee78c8bae49cf08ea2f0c84945c66b987ebe4520881fb51b3dad4fb43d07c2"
+    },
+    {
+      "path": "evidence/m14/README.md",
+      "bytes": 885,
+      "sha256": "5cc9d59c84e7976189f694f3c4ab4222d443ba5281bf28c7b812b34ba975df7f"
+    },
+    {
+      "path": "evidence/m14/comment-inserted.jpg",
+      "bytes": 140370,
+      "sha256": "c52c7d656b808ff869e599a8ce4d13aecb6dfda7a58fd359c01be7f5fad7aeb4"
+    },
+    {
+      "path": "evidence/m14/comment-native.json",
+      "bytes": 5524,
+      "sha256": "59b841e97c5081a3e5ba76150297bb793821520c20e34ee8882c7edd90924d8d"
+    },
+    {
+      "path": "evidence/m14/original-native.json",
+      "bytes": 5447,
+      "sha256": "343ba40f2c8c5ec456fd1f9b6ae1de88474391641556c4f9303e706b9bb4407b"
+    },
+    {
+      "path": "evidence/m14/original.jpg",
+      "bytes": 140297,
+      "sha256": "75a8da33f6eaf1e16bf3b42cd78913b22b2e6a671fda217a508b1ba4230ce864"
+    },
+    {
+      "path": "evidence/m14/run-summary.json",
+      "bytes": 3053,
+      "sha256": "04afa6d520da0ffd475afcb9836fe1136301e2bbc3b2b48d3c01671a128c4538"
+    },
+    {
+      "path": "evidence/m14/stripped-app11.jpg",
+      "bytes": 89167,
+      "sha256": "5b9361f6f790e98c2b95db7d89cc378c7bfd3326eae4e4dbe3c6b9b40c55e689"
+    },
+    {
+      "path": "evidence-catalog.json",
+      "bytes": 5174,
+      "sha256": "d6cae5eb947ef00a2632bdc5f79138ffeba1d88dbc878e27139b43e4db77f2f6"
+    },
+    {
+      "path": "export.json",
+      "bytes": 4998,
+      "sha256": "72511d87e446d22f721c72d1f962e7441216bad5bfd32fe739aa0e3184d26637"
+    },
+    {
+      "path": "feed.xml",
+      "bytes": 920,
+      "sha256": "fc11ad5e1a977004752c75bfd85c0d758b3a1254e3729604fbfe5c042e12eba8"
+    },
+    {
+      "path": "funding-ledger.csv",
+      "bytes": 79,
+      "sha256": "ad4d07badc8fa58b65bed44f8a7826e1d0134bb3cf09c9e8f6d8b139f4916640"
+    },
+    {
+      "path": "funding.html",
+      "bytes": 3167,
+      "sha256": "8da5394fac538112fe21d06221ba789d937f8dc54c235606620e0df88360f366"
+    },
+    {
+      "path": "governance-state.json",
+      "bytes": 1823,
+      "sha256": "cde1e87b02c5d4240e6917c0952f2b7211def49d5307b3cf6e46f47f864170ec"
+    },
+    {
+      "path": "governance.html",
+      "bytes": 4594,
+      "sha256": "3a159d6516f14f3193b61ac2cf88e6d7265cf2afb626d31767ff5c95d7c4e15a"
+    },
+    {
+      "path": "index.html",
+      "bytes": 3697,
+      "sha256": "5e89d6957554079ddee6df295ca9596bc5d69add6ee43415c7b555c9290d4a02"
+    },
+    {
+      "path": "method.html",
+      "bytes": 4403,
+      "sha256": "154f8f036c9a185af8e1f447802ed18dce5c3755ecbbdd6a8031ba113392085d"
+    },
+    {
+      "path": "participate.html",
+      "bytes": 3425,
+      "sha256": "f1d318fc84ddb2b156668d9b4bdc7744a87cb7b67703ce1d1533a1d7acf51963"
+    },
+    {
+      "path": "privacy.html",
+      "bytes": 3539,
+      "sha256": "5ef6db6a07a97b4be77c09bb9533e6c7e8cd5b1e1c686b1dec99b9610f6eaead"
+    },
+    {
+      "path": "sources.json",
+      "bytes": 2720,
+      "sha256": "1b4103a92631b5ad2c487cf2b46fa5ad4c4bd4733c26d37ed558a8104e1915e4"
+    },
+    {
+      "path": "style.css",
+      "bytes": 2896,
+      "sha256": "987626820f0ce6d22a476929a008f7db9bff96d77c1eb59d02fe028d9b37c5d1"
+    }
+  ]
+}
